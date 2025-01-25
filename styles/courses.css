@@ -48,7 +48,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--bg-main);
+  background-color: black;
   padding: 10px;
 }
 
@@ -206,7 +206,8 @@ header .cta-btn {
 }
 
 .lesson-section-title {
-  color: var(--text-main-headers);
+  color: var(--text-links);
+  font-weight: bold;
 }
 
 .lesson-container {
@@ -275,6 +276,7 @@ header .cta-btn {
 .lesson-title {
   text-transform: uppercase;
   font-weight: bold;
+  color: var(--highlight);
 }
 
 .gatsby-highlight {
@@ -467,8 +469,8 @@ ol.sections-name .lesson-details {
   }
 
   ol.sections-name .lesson-preface {
-    font-size:60px
-   }
+    font-size: 60px;
+  }
 }
 
 .lesson-details h3 {
@@ -518,7 +520,7 @@ ol.sections-name .lesson-details {
 
 code,
 pre code {
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 code,
@@ -534,27 +536,27 @@ pre code.hljs {
 }
 
 pre {
-    position: relative;
+  position: relative;
 }
 
 .div-copy {
-    position: absolute;
-    top: 0;
-    right: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .div-copy .tooltip-copy::after {
-    content: "";
-    position: absolute;
-    right: 100%;
-    margin-right: -4px;
-    top: 60%;
-    transform: translateY(-50%);
-    border-style: solid;
-    border-width: 2px 2px 5px 8px;
-    border-color: transparent transparent transparent #444;
-    opacity: 0;
-    transition: opacity .3s;
+  content: "";
+  position: absolute;
+  right: 100%;
+  margin-right: -4px;
+  top: 60%;
+  transform: translateY(-50%);
+  border-style: solid;
+  border-width: 2px 2px 5px 8px;
+  border-color: transparent transparent transparent #444;
+  opacity: 0;
+  transition: opacity 0.3s;
 }
 
 .div-copy .tooltip-copy::before {
@@ -570,14 +572,15 @@ pre {
   color: #fff;
   text-align: center;
   opacity: 0;
-  transition: opacity .3s;
+  transition: opacity 0.3s;
 }
 
 .div-copy .tooltip-copy {
-    margin-right: 0.3em;
-    margin-top: 0.3em;
+  margin-right: 0.3em;
+  margin-top: 0.3em;
 }
 
-.div-copy.clicked .tooltip-copy::before, .div-copy.clicked .tooltip-copy::after {
-    opacity: 1;
+.div-copy.clicked .tooltip-copy::before,
+.div-copy.clicked .tooltip-copy::after {
+  opacity: 1;
 }

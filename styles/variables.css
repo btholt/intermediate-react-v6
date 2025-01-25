@@ -1,14 +1,14 @@
 :root {
-  --primary: #dfa067;
-  --secondary: #93aca7;
-  --highlight: #224159;
+  --primary: #010701;
+  --secondary: #010701;
+  --highlight: #04f62c;
 
   --text-header: var(--primary);
   --text-main-headers: var(--highlight);
-  --text-links: #007bff;
-  --text-footer: #333;
+  --text-links: #00ca22;
+  --text-footer: var(--highlight);
 
-  --bg-main: white;
+  --bg-main: rgba(67, 56, 56, 0.9);
   --bg-dots: var(--highlight);
   --bg-lesson: white;
 
