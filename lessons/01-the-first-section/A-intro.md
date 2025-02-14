@@ -30,9 +30,11 @@ Class Outline
 
 - Rebuild the app in Next
 
-# Let's do it with TanStack Start
+# What else is there?
 
-- Rebuild the app in TanStack
+- React Router / Remix
+- (Coming Soon) TanStack Start
+- Vite by itself!
 
 # Other options
 
