@@ -1,8 +1,6 @@
 ---
-title: "What is an RSC?"
+title: "Client-Side React"
 ---
-
-# TODO: split this page up into multiple page. add code examples for SSG and SSR
 
 > 💡 This course assumes you have taken or at least understand the concepts in [The Complete Intro to React v9][v9]. If you don't, please go back and take that one first, this will make a lot more sense.
 
@@ -18,13 +16,7 @@ This is how we've written React for a very long time (10+ years now) and will co
 
 Brian's (not-so) 🔥 Take: this is the default way you should write React. Everything is a contextual performance enhancement, and should only be reached for when: 1. the performance enhancement actually meaningfully helps (it frequently doesn't) and 2. you actually have a need for the performance enhancement (you frequently don't). This style of rendering yields the simplest apps that are easiest to write, easiest to maintain, and easiest to debug.
 
-## Static-Site Generation (SSG)
-
-> Fun fact: this very website is rendered via SSG with Next.js! [See the code here][code]
-
-Static Site generation allows you to use React to generate a fully static site. This is perfect for sites like blogs or course materials (like this site) where it's just a bunch of static pages that don't need the interactivity of React. It's enough to render this out once - it doesn't need the interactivity. The result is the end user is just shipped fully rendered flat HTML files - it doesn't need a server or client to do it. The developer can still add some interactivity via React, but minimally so.
-
-This is just useful for static content. I love it because it helps me ship these courses faster, but it's not a good fit for anything with much more than basic interactivity.
+# TODO Move these two to their own pages
 
 ## Server-Side Rendered (SSR)
 
@@ -35,4 +27,3 @@ SSR is a double-edged sword. It can be a huge help, saving slow devices from hav
 ## React Server Components
 
 [v9]: https://react-v9.holt.courses
-[code]: https://github.com/btholt/intermediate-react-v6/
