@@ -126,4 +126,6 @@ app.listen({
 
 The interesting part is the "/" get handler. We immediately write the head to the user. This allows the browser to see the script tag and immediately start downloading the React app. We then render the app and send it to the user. This means by the time the app is rendered and sent to the user, it'll be pretty close to the time the user finishes downloading the script and should get a faster time to first meaningful pain and a decent time to interactive. We finish it off by sending the rest of the closing tags to the user.
 
+> We did this with renderToString. You can do this with renderToPipeableStream as well and on a larger app see some improvement as it'll stream markup as it finishes to the user. I wanted to show you renderToString which works well for this micro app, but on a bigger codebase I'd choose streaming. We're about to do use renderToPipeableStream for React Server Components so you're about to learn how to use it anyway.
+
 [v5]: https://frontendmasters.com/courses/intermediate-react-v5/server-side-rendering/
