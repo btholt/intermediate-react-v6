@@ -19,6 +19,20 @@ In your package.json, add `"type": "module"` as a top level item. Also add `"bui
 
 > 💡 We're going to do this with vanilla JS and not JSX so we don't need to bring in Babel/Vite/Webpack/whatever. You could absolutely bring in those if you wanted to, I'm just trying to keep these examples as simple as possible.
 
+Create index.html, put this in there:
+
+```javascript
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SSG Example</title>
+  </head>
+  <body>
+    <div id="root"><!--ROOT--></div>
+  </body>
+</html>
+```
+
 Create an App.js file, put in there
 
 ```javascript
@@ -39,7 +53,7 @@ export default App;
 Now create a build.js and put
 
 ```javascript
-import { renderToString } from "react-dom/server";
+import { renderToStaticMarkup } from "react-dom/server";
 import { createElement as h } from "react";
 import {
   readFileSync,
@@ -59,7 +73,7 @@ const distPath = path.join(__dirname, "dist");
 
 const shell = readFileSync(path.join(__dirname, "index.html"), "utf8");
 
-const app = renderToString(h(App));
+const app = renderToStaticMarkup(h(App));
 const html = shell.replace("<!--ROOT-->", app);
 
 // Create dist folder if it doesn't exist
@@ -81,6 +95,7 @@ writeFileSync(path.join(distPath, "index.html"), html);
 - You actually _could_ just have React render everything, `<html>`, `<body>` and all.
 - We didn't include any CSS nor JS, but obviously you could.
 - For mild amounts of interactivity, you could include JS file with the React run time and hydrate the app, but we don't need to.
+- We're using renderToStaticMarkup - this very similar to the renderToString function but doesn't include any hints for React to hydrate later for SSR (server-side rendering, our next lesson). renderToString would work, it'll just include superfluous React stuff we don't need.
 
 This generates one page. You could have it generate many pages any number of ways. We could write a `routes.js` file that defines a route and its route component and then have build.js loop over that. We could use `react-router` or something like and then make our build.js use those routes to generate route. Any of these are viable.
 
