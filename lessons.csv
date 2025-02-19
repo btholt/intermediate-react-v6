@@ -1,0 +1,7 @@
+order,sectionTitle,lessonTitle,slug,sectionIcon,filePath,description
+01A,The First Section,Intro,the-first-section/intro,info-circle,/lessons/the-first-section/intro,""
+01B,The First Section,React 19,the-first-section/react-19,info-circle,/lessons/the-first-section/react-19,""
+02A,React Render Modes,Client-Side React,react-render-modes/client-side-react,dumpster-fire,/lessons/react-render-modes/client-side-react,""
+02B,React Render Modes,Static Site Generation,react-render-modes/static-site-generation,dumpster-fire,/lessons/react-render-modes/static-site-generation,""
+02C,React Render Modes,Server Side Rendering,react-render-modes/server-side-rendering,dumpster-fire,/lessons/react-render-modes/server-side-rendering,""
+03A,RSCs without a Framework,Intro to React Server Components,rscs-without-a-framework/intro-to-react-server-components,file-code,/lessons/rscs-without-a-framework/intro-to-react-server-components,""
