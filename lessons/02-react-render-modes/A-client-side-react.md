@@ -16,14 +16,6 @@ This is how we've written React for a very long time (10+ years now) and will co
 
 Brian's (not-so) 🔥 Take: this is the default way you should write React. Everything is a contextual performance enhancement, and should only be reached for when: 1. the performance enhancement actually meaningfully helps (it frequently doesn't) and 2. you actually have a need for the performance enhancement (you frequently don't). This style of rendering yields the simplest apps that are easiest to write, easiest to maintain, and easiest to debug.
 
-# TODO Move these two to their own pages
-
-## Server-Side Rendered (SSR)
-
-This is a hybrid of the two. Essentially here on inital page load, your server will handle the initial rendering of the React app and ship rendered HTML. The full bundle of the React component will then be shipped to the client and React will "hydrate" the markup. Hydrate in this case just means it'll take the inert HTML and add anything interactive to it. In a sense, the React app "takes over".
-
-SSR is a double-edged sword. It can be a huge help, saving slow devices from having to run big React apps and shaving off precious milliseconds of _time to first paint_ (but _not time to first interactive_). So as you can see, it's a tradeoff, and frequently SSR can actually make things worse, not better, so do be careful. Measure your key metrics and make sure it's helping!
-
-## React Server Components
+We're not going to write a client-side React app today – [Complete Intro to React][v9] covers that in-depth. So let's move on to writing SSG and SSR apps.
 
 [v9]: https://react-v9.holt.courses
