@@ -10,7 +10,7 @@ Class Outline
 
 # What changed with React 19
 
-- Why Intermidate React changed a lot
+- Why Intermediate React changed a lot
 - Servers and how they can be helpful with React
 - When Servers are not helpful to React
 - RSCs
