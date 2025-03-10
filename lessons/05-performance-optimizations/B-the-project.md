@@ -1,3 +1,8 @@
+> You will need to open the folder `perf` from the repo in your project.
+>
+> - [The starter template][starter]
+> - [The completed project][completed]
+
 Let's open the `perf` project in our repo and run `npm install`.
 
 We're going to build a markdown previewer! On some laptops this can be pretty slow to parse and re-render to the DOM. On my laptop it's actually fast enough to get through it so we're going to introduce some artifical jank. Your computer may not need it.
@@ -89,3 +94,5 @@ Alright, go play with it now (you may need to mess with the JANK_DELAY as well a
 So how can we fix at least the scroll portion, as well make the other two a little less painful (as they'll only re-renderingo once as opposed to continually.)
 
 [xss]: https://owasp.org/www-community/attacks/xss/
+[starter]: https://github.com/btholt/irv6-project/tree/main/starter/perf
+[completed]: https://github.com/btholt/irv6-project/tree/main/completed/perf

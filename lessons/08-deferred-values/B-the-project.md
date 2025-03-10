@@ -1,4 +1,7 @@
-Open the `deferred` project from our repo.
+> You will need to open the folder `deferred` from the repo in your project.
+>
+> - [The starter template][starter]
+> - [The completed project][completed]
 
 Let's hop into our src directory and create a Slider.jsx file.
 
@@ -130,3 +133,6 @@ export default function App() {
 
 - Now we can see something rendered. Notice it's _super_ janky.
 - You'll notice that DisplayImage is re-rendering 100% of the time. This is because we haven't memoized it and also filterStyle is changing every time a slider is. When props change, a component will always re-render, memoized or not.
+
+[starter]: https://github.com/btholt/irv6-project/tree/main/starter/deferred
+[completed]: https://github.com/btholt/irv6-project/tree/main/completed/deferred

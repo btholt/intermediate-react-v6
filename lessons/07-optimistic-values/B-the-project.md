@@ -1,3 +1,8 @@
+> You will need to open the folder `optimistic` from the repo in your project.
+>
+> - [The starter template][starter]
+> - [The completed project][completed]
+
 Let's open the project.
 
 1. Open optimisitic folder in your editor of choice
@@ -76,3 +81,6 @@ export default function App() {
 - The big issue here is that the user is shown no feedback while the POST happening.
 - We could just append to thoughts and hope for the best - and this is what we used to do.
 - However we can use `useOptimisticState` and get a lot of the error cases and other problems wrapped up and taken care of for us.
+
+[starter]: https://github.com/btholt/irv6-project/tree/main/starter/optimistic
+[completed]: https://github.com/btholt/irv6-project/tree/main/completed/optimistic
