@@ -8,7 +8,7 @@
   --text-links: #00ca22;
   --text-footer: var(--highlight);
 
-  --bg-main: rgba(67, 56, 56, 0.9);
+  --bg-main: black;
   --bg-dots: var(--highlight);
   --bg-lesson: white;
 
