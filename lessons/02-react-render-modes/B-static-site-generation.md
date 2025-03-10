@@ -119,7 +119,7 @@ Using this toolkit, I'm able to use React to write the wrappers of the pages of 
 [code]: https://github.com/btholt/intermediate-react-v6/
 [export]: https://nextjs.org/docs/pages/building-your-application/deploying/static-exports
 [astro]: https://astro.build/
-[md]: https://github.com/btholt/intermediate-react-v6/blob/main/lessons/02-react-server-components/B-static-site-generation.md
+[md]: https://github.com/btholt/intermediate-react-v6/blob/main/lessons/02-react-render-modes/B-static-site-generation.md
 [config]: https://github.com/btholt/intermediate-react-v6/blob/main/next.config.js#L9
-[html]: https://github.com/btholt/intermediate-react-v6/blob/gh-pages/lessons/react-server-components/static-site-generation.html
+[html]: https://github.com/btholt/intermediate-react-v6/blob/gh-pages/lessons/react-render-modes/static-site-generation.html
 [site-html]: https://github.com/btholt/intermediate-react-v6/tree/gh-pages
