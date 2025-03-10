@@ -1,3 +1,20 @@
+---
+description: >-
+  In the Intermediate React v6 course by Brian Holt from Frontend Masters,
+  explore the concept of React Server Components (RSCs) and their role in
+  rendering components on the server for improved performance and security.
+  Learn how RSCs differ from server-side rendering and how to implement them
+  using frameworks like Next.js. The course also involves building a messaging
+  app to practice hand-coding with RSCs.
+keywords:
+  - React
+  - Frontend Masters
+  - Brian Holt
+  - server components
+  - Next.js
+  - web development
+  - RSC
+---
 We've talked about client-side React apps (no server), static site generation apps (server runs only at compile time), and server-side rendered app (server renders initial page but then client does the rest). Now we're going to talk about react server components which involves the server even more.
 
 ## What are RSCs?

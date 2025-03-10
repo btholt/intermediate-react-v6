@@ -1,3 +1,21 @@
+---
+description: >-
+  Learn how to utilize deferred values and sliders in React to apply dynamic
+  filters to images, featuring examples like the 'DisplayImage' and 'Slider'
+  components. Part of Intermediate React v6 by Brian Holt for Frontend Masters,
+  this lesson covers implementing user input sliders, managing deferred values,
+  and optimizing renders by simulating real-world application performance issues
+  like jank. Perfect for developers looking to enhance their React skills with
+  practical coding examples.
+keywords:
+  - React
+  - Brian Holt
+  - Frontend Masters
+  - deferred values
+  - image filters
+  - React sliders
+  - web development
+---
 > You will need to open the folder `deferred` from the repo in your project.
 >
 > - [The starter template][starter]

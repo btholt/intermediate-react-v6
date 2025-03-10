@@ -1,3 +1,19 @@
+---
+description: >-
+  Discover how to enhance your React app's performance with server-side
+  rendering (SSR) as demonstrated by Brian Holt in the Intermediate React v6
+  course for Frontend Masters. Learn how to implement SSR by hand to optimize
+  time to interactive and first meaningful paint, along with considerations for
+  complexity and device performance. Explore practical examples of SSR app setup
+  with Fastify, Vite, and React, including handling browser-only scripts and
+  overcoming hydration errors.
+keywords:
+  - React
+  - server-side rendering
+  - SSR
+  - Brian Holt
+  - Frontend Masters
+---
 > 💡 The previous version of this course does a pretty in-depth dive on migrating a client-side React app to being server-side render. [Check it out here][v5]. Nothing has changed so if you want more SSR magic ✨ this still 100% applies.
 
 When you have a client-side React request, the general flow looks like this:

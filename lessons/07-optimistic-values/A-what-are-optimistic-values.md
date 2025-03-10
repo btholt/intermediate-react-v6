@@ -1,3 +1,17 @@
+---
+description: >-
+  Discover the concept of optimistic UI updates in messaging apps, where the
+  user interface reflects message sending before the actual network send,
+  enhancing user experience. This approach, explained by Brian Holt in the
+  Intermediate React v6 course, utilizes hooks like useOptimisticValue and
+  useTransition to efficiently manage state changes in React applications.
+keywords:
+  - optimistic UI
+  - React
+  - Brian Holt
+  - useOptimisticValue
+  - useTransition
+---
 Let's say you are texting your friend. You open iMessage, WhatsApp, Signal, ICQ, AIM, MSN Messenger etc. What is the actual order of operations?
 
 1. You type your message

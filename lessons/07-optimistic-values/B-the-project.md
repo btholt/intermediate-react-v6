@@ -1,3 +1,20 @@
+---
+description: >-
+  Discover how to build a UI in React using server and client interactions
+  including POST requests with intentional delays for error simulation, as
+  outlined in Brian Holt's Intermediate React v6 course on Frontend Masters.
+  Learn to handle UI feedback during asynchronous operations efficiently with
+  techniques like useOptimisticState, enhancing your web development skills with
+  JavaScript and server components.
+keywords:
+  - React
+  - server components
+  - UI development
+  - Brian Holt
+  - Frontend Masters
+  - JavaScript
+  - web development
+---
 > You will need to open the folder `optimistic` from the repo in your project.
 >
 > - [The starter template][starter]

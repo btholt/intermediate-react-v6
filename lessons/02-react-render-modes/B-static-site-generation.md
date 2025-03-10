@@ -1,3 +1,19 @@
+---
+description: >-
+  Learn how to implement Static Site Generation (SSG) using React and Next.js,
+  with expert guidance from Brian Holt in the Intermediate React v6 course at
+  Frontend Masters. Discover the simplicity of generating static web pages for
+  content-heavy sites and explore how this streamlined approach can expedite
+  course creation without sacrificing quality. Enhance your knowledge on using
+  modern frameworks like Astro and Next.js for optimized static content
+  delivery.
+keywords:
+  - Static Site Generation
+  - Next.js
+  - React
+  - Brian Holt
+  - Frontend Masters
+---
 > Fun fact: this very website is rendered via SSG with Next.js! [See the code here][code]
 
 Static Site generation allows you to use React to generate a fully static site. This is perfect for sites like blogs or course materials (like this site) where it's just a bunch of static pages that don't need the interactivity of React. It's enough to render this out once - it doesn't need the interactivity. The result is the end user is just shipped fully rendered flat HTML files - it doesn't need a server or client to do it. The developer can still add some interactivity via React, but minimally so.

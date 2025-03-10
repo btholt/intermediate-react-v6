@@ -1,3 +1,17 @@
+---
+description: >-
+  Explore Brian Holt's 'Intermediate React v6' course, providing insights on the
+  use of Node.js, preferred development tools like Visual Studio Code, and a
+  balanced perspective on AI integration in coding. Learn how these tools and
+  technologies enhance the process of writing efficient React Server Components,
+  as taught for Frontend Masters.
+keywords:
+  - React
+  - Node.js
+  - Visual Studio Code
+  - AI in coding
+  - Brian Holt
+---
 ## Node.js
 
 You'll need to have a Node.js version installed, and preferably something after v20.16. I wrote this course with 22.14 but it should be fairly future-proof.

@@ -1,3 +1,20 @@
+---
+description: >-
+  Learn how to enhance React performance by using tools like memo, useMemo, and
+  useCallback, as taught by Brian Holt in "Intermediate React v6" for Frontend
+  Masters. Discover when to optimize your React components to avoid unnecessary
+  re-renders and improve efficiency without preemptive adjustments. The course
+  is perfect for developers seeking to refine their React skills with practical
+  insights and advanced concepts.
+keywords:
+  - React
+  - performance optimization
+  - memo
+  - useMemo
+  - useCallback
+  - Brian Holt
+  - Frontend Masters
+---
 React generally has a very good performance profile, no matter what "thought leaders" may be tweeting about it. If you write React in a way consistent with the way I taught you in this class and the intro as well as the docs, you really don't need to concern yourself too much with "is this going to perform well" because React tends to be really good at making sure average code runs fast enough.
 
 To be entirely honest, it was _hard_ to make non-performant code in React. We're going to have to resort to adding artificial slowdowns in our code because my MacBook could consistenly churn through the code inefficient code anyway, making it hard to see performance gains we're going to get. Nonetheless, these concepts aren't important until they're _very_ important.

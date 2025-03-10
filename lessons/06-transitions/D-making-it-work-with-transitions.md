@@ -1,3 +1,15 @@
+---
+description: >-
+  Learn how to implement React's useTransition hook to manage UI transitions
+  effectively during API requests, as taught in Brian Holt's Intermediate React
+  v6 course for Frontend Masters.
+keywords:
+  - React
+  - useTransition
+  - API request
+  - UI transitions
+  - Brian Holt
+---
 Luckily the useTransition code is only slightly more complex.
 
 ```javascript

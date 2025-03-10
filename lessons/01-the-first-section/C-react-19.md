@@ -1,3 +1,19 @@
+---
+description: >-
+  Explore the new features of React 19, focusing on React Server Components,
+  which enable partial server-side rendering of React components, a feature that
+  facilitates safe database querying directly within React. Discover insights
+  into this cutting-edge technology, stable since 2023 and actively developed
+  since 2022, with guidance from expert Brian Holt. Ideal for developers aiming
+  to leverage the latest advancements in React functionality.
+keywords:
+  - React 19
+  - React Server Components
+  - Brian Holt
+  - web development
+  - JavaScript
+  - server-side rendering
+---
 Let's talk about [React 19][19].
 
 It came out at the tail end of 2024 officially but really had publicly been worked on [since late 2022][rfc]. So it's been worked nearly 3 years and been stable and in production (via Next.js as well as internally at Facebook) since [late 2023][next].

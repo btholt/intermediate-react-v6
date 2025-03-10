@@ -1,3 +1,19 @@
+---
+description: >-
+  Join Brian Holt in 'Intermediate React v6' for Frontend Masters to gain
+  expertise in server-side and performance capabilities of React. This
+  comprehensive course requires prior knowledge from 'The Complete Intro to
+  React v9' and focuses on leveraging React's inherent tools for web
+  development, making it ideal for anyone with a foundational understanding of
+  React. Brian Holt, an experienced React developer, provides hands-on projects
+  and detailed instructions, enhancing your React skills and knowledge.
+keywords:
+  - Intermediate React
+  - Frontend Masters
+  - Brian Holt
+  - React Server Components
+  - JavaScript
+---
 > 🚨 You do not need to watch/read previous versions of this course, Intermediate React. This is just the sixth revision of the course. You **do** need to have taken [the Complete Intro to React v9][v9]
 
 Hello! And welcome to the sixth revision of Intermediate React as taught for Frontend Masters! This is a total rewrite of the Intermdiate curriculum and I am so excited for you to take it. Previous versions of this course focused on the ecosystem around React and [v5][v5] of this course is still valid for that: Tailwind, TypeScript, Redux, and other things. Beyond that, Frontend Masters has individual courses on all of those things as taught by other instructions. [Check out the learning path][path] to find all of those.

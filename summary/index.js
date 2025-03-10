@@ -4,7 +4,7 @@ import "dotenv/config";
 import fs from "fs/promises";
 import { getLesson, getLessons } from "../data/lesson.js";
 import { zodResponseFormat } from "openai/helpers/zod";
-import getPrompt from "./getSystemPrompt.js";
+import getPrompt from "./getPrompt.js";
 import assert from "assert";
 import path from "path";
 import { z } from "zod";

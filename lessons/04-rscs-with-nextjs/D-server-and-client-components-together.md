@@ -1,3 +1,16 @@
+---
+description: >-
+  Learn how to effectively combine server and client components in React by
+  implementing a polling system for real-time data updates, as explained by
+  Brian Holt in Intermediate React v6 for Frontend Masters.
+keywords:
+  - React components
+  - client-server
+  - polling
+  - real-time updates
+  - Frontend Masters
+  - Brian Holt
+---
 One question you should probably have by this point is "how do I mix server and client component?" Super valid - we're obviously going to need both in order to ship complete apps. So how do we do that? Just by being a little judicious of how nest things and using React's innate ability to nest components.
 
 Let's say we have a secret teacher view that allows the teacher to see all the notes passed between everyone in their class. And we want that data to be consistently updated so a teacher can always see the latest notes. How would we do that? Let's do it with polling - we'll query the database for rows in the database and then we'll continually update it.

@@ -1,3 +1,19 @@
+---
+description: >-
+  Explore Brian Holt's 'Intermediate React v6' course where you'll build a
+  scoreboard project using Vite and Node.js, focusing on transitions without
+  server-side dependencies. Discover how to set up and run the project with
+  practical guides, making use of the provided starter and completed templates
+  from GitHub.
+keywords:
+  - React
+  - Vite
+  - Brian Holt
+  - Node.js
+  - frontend
+  - project setup
+  - Github templates
+---
 > You will need to open the folder `transitions` from the repo in your project.
 >
 > - [The starter template][starter]

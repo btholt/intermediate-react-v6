@@ -1,3 +1,19 @@
+---
+description: >-
+  Learn about handling UI transitions and pending states in React applications
+  with this practical example from Brian Holt's "Intermediate React v6." This
+  lesson provides code snippets for managing API requests and displaying scores
+  using a "Score" component, focusing on user experience improvements during
+  data fetching.
+keywords:
+  - React
+  - UI transitions
+  - pending states
+  - Brian Holt
+  - FrontEnd Masters
+  - JavaScript
+  - Intermediate React
+---
 Let's first make this "wrong" first - the problem where the UI locks up during transitional times.
 
 Let's make a Score.jsx file

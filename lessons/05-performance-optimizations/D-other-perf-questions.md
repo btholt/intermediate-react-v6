@@ -1,3 +1,20 @@
+---
+description: >-
+  Explore the differences between useMemo and useCallback Hooks in React, as
+  explained by Brian Holt in the Intermediate React v6 course for Frontend
+  Masters. Understand when to use these Hooks for performance optimization and
+  learn about the potential pitfalls of overusing memoization, alongside
+  insights into React Compiler. Enhance your React skills with practical advice
+  on state management and performance enhancement techniques.
+keywords:
+  - useMemo
+  - useCallback
+  - React Hooks
+  - performance optimization
+  - memoization
+  - React Compiler
+  - Brian Holt
+---
 ## useMemo vs useCallback
 
 What's the difference between useCallback and useMemo? Not much. You could actually rewrite our code to look like this and it'd be equivalent.

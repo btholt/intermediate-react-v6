@@ -1,3 +1,17 @@
+---
+description: >-
+  Explore performance optimization techniques in React with Brian Holt's course
+  "Intermediate React v6" as you build a markdown previewer using artificial
+  jank for testing. This segment covers creating MarkdownPreview.jsx and
+  App.jsx, addressing rendering issues, and demonstrating the use of
+  dangerouslySetInnerHTML to prevent XSS attacks.
+keywords:
+  - React
+  - Brian Holt
+  - web development
+  - markdown previewer
+  - performance optimization
+---
 > You will need to open the folder `perf` from the repo in your project.
 >
 > - [The starter template][starter]

@@ -1,5 +1,18 @@
 ---
-title: "Client-Side React"
+title: Client-Side React
+description: >-
+  Learn about React Server Components in the 'Intermediate React v6' course by
+  Brian Holt on Frontend Masters. Understand the trade-offs of React Server
+  Components and different React rendering methods, including client-side,
+  server-side, and static site generation. Explore the benefits and limitations
+  of these approaches and optimize your web development skills using advanced
+  React techniques.
+keywords:
+  - React
+  - Server Components
+  - Brian Holt
+  - Frontend Masters
+  - web development
 ---
 
 > 💡 This course assumes you have taken or at least understand the concepts in [The Complete Intro to React v9][v9]. If you don't, please go back and take that one first, this will make a lot more sense.

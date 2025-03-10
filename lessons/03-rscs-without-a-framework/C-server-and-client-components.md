@@ -1,3 +1,17 @@
+---
+description: >-
+  Learn how to build a simple React app with server and client components using
+  React Server Components as taught by Brian Holt in Intermediate React v6 for
+  Frontend Masters. Discover the differences between client and server
+  components, and how to implement async functions in server components for
+  efficient rendering.
+keywords:
+  - React
+  - Server Components
+  - Brian Holt
+  - Frontend Masters
+  - JavaScript
+---
 Let's put together the most simple React app so that we can render it using our newly-created framework.
 
 Let's make a directory, `src` and put a file in there a file called App.jsx

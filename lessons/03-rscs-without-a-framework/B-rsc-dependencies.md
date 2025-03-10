@@ -1,5 +1,19 @@
 ---
-title: "RSC Dependencies"
+title: RSC Dependencies
+description: >-
+  Learn how to set up a React Server Components project from scratch using
+  Webpack and Babel, with guidance from Brian Holt's Intermediate React v6
+  course on Frontend Masters. This comprehensive guide includes configuring
+  Webpack, Babel, and Fastify to run RSCs efficiently without additional
+  frameworks, enhancing your web development skills.
+keywords:
+  - React Server Components
+  - Webpack
+  - Babel
+  - Brian Holt
+  - Frontend Masters
+  - RSC
+  - web development
 ---
 
 There's a lot to getting this set up by hand, but bear with me, and I promsie at the end of this you're going to understand RSCs at a depth that allows you to make trade-offs of when to use them and when to avoid them.

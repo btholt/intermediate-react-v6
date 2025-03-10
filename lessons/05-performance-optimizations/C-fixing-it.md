@@ -1,3 +1,21 @@
+---
+description: >-
+  This guide explains how to optimize React component re-rendering using
+  memoization techniques such as the memo function, useCallback, and useMemo,
+  highlighting how these can prevent unnecessary re-renders by ensuring that a
+  component only re-renders when its props or state variables change. Authored
+  by Brian Holt for the Intermediate React v6 course, offered by Frontend
+  Masters, this lesson is essential for web developers seeking to enhance React
+  performance and manage state efficiently in their applications.
+keywords:
+  - React
+  - memoization
+  - useCallback
+  - useMemo
+  - Brian Holt
+  - Frontend Masters
+  - performance
+---
 When does a componet re-render? It re-renders when its parents have changed, always. But what if we could say "only re-render when your props have changed"? Frankly that's most components, but this is an opt-in pattern for React. Generally, like we said, renders are so cheap that introducing this "memoization" layer just makes it harder to debug. But in this case we need some help, so let's do it!
 
 In MarkdownPreview.jsx

@@ -1,3 +1,15 @@
+---
+description: >-
+  Learn how to optimize React performance using 'useDeferredValue' to manage low
+  priority rendering, a tool that dynamically adapts to user's device speed, in
+  Brian Holt's "Intermediate React v6" course by Frontend Masters.
+keywords:
+  - React
+  - useDeferredValue
+  - performance optimization
+  - deferred rendering
+  - Brian Holt
+---
 So how can we make things less janky?
 
 In the past we have to use something like [throttle or debounce][throttle] - we'd limit how frequently we'd allow the functions to update. This works but it's a blunt instrument - it's complicated code (I have to look up debounce vs throttle every time) and it doesn't scale with the user's device. Slow and fast devices alike will get slowed down.

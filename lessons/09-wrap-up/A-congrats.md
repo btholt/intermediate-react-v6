@@ -1,5 +1,20 @@
 ---
-title: "Congrats!"
+title: Congrats!
+description: >-
+  Congratulations on completing Intermediate React v6 by Brian Holt, taught
+  through Frontend Masters. You're now ready to deploy and enhance your React
+  projects, exploring cloud integration with services like Vercel and Neon, and
+  adding advanced features like authentication and social media-like
+  functionalities. Share your builds and innovations with the community and
+  continue to expand your skills in web development.
+keywords:
+  - Intermediate React
+  - Brian Holt
+  - Frontend Masters
+  - web development
+  - React projects
+  - cloud integration
+  - authentication
 ---
 
 🎉 You did it! 🎉
