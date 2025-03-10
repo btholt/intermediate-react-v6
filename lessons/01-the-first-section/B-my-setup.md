@@ -27,6 +27,14 @@ I _think_ this course would work with recent versions of [bun][bun] but it's unt
   - [Starship Prompt][starship] – Very cool prompt that's just pretty. Also shows you what sort of project you're in which is occasionally useful
   - [CaskaydiaCove Nerd Font][nerd] – This works with Starship prompt to give you the JS logos and all those extra glyphs. It's based on Cascadia Code.
 
+## A note on the use of AI in this course
+
+This course was written by me. I used AI in a few places for assistance, but every piece of code and every line of text on this site was written by me. The only places that it's actually AI written directly are the example rows of the database and the sample markdown - just filler content that I prompted Claude for. I do let OpenAI write all the SEO for these webpages (like all the OpenGraph keywords and descriptions.)
+
+My stance on AI is two-fold. In the hands of an experieced wielder AI is incredibly powerful. When I say experienced, I mean it in two ways: 1. experienced in writing the sort of code they're prompting for and 2. experienced in the usage of how to prompt and use AI well. In our case, AI will allow you to amplify the rate you can write React code, but that's only possible if you understand React. Sure, you can "vibe" code React with a very shallow understanding, but you're going to build tall houses of cards. You'll be better served by turning off the AI and handwriting code, understanding each precept, and then using that knowledge to co-write solid React with your AI toolkit.
+
+Do I use AI? Yes, it helps me work faster. But like a manager reviewing their interns' code, I am responsible for what I decide to ship, and so I keep a tight rein on it.
+
 [ligatures]: https://worldofzero.com/posts/enable-font-ligatures-vscode/
 [monolisa]: https://www.monolisa.dev/
 [vscode-icons]: https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons
