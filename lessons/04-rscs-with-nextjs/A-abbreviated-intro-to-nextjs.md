@@ -32,7 +32,7 @@ npx create-next-app@15.1.7 --js --app --src-dir --turbopack
 
 You can call the app whatever you want. I'd omit ESLint and Tailwind (no big deal if you want to include them, we're just not going to use them today.)
 
-Okay, let's shape this app to be what we need. We're going to continue on our path to building Note Passer, so let's install a few more depenencies
+Okay, let's shape this app to be what we need. We're going to continue on our path to building Note Passer, so let's install a few more dependencies:
 
 ```javascript
 npm i doodle.css@0.0.2 promised-sqlite3@2.1.0 sqlite3@5.1.7

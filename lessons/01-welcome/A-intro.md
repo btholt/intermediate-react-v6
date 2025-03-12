@@ -14,9 +14,10 @@ keywords:
   - React Server Components
   - JavaScript
 ---
+
 > 🚨 You do not need to watch/read previous versions of this course, Intermediate React. This is just the sixth revision of the course. You **do** need to have taken [the Complete Intro to React v9][v9]
 
-Hello! And welcome to the sixth revision of Intermediate React as taught for Frontend Masters! This is a total rewrite of the Intermdiate curriculum and I am so excited for you to take it. Previous versions of this course focused on the ecosystem around React and [v5][v5] of this course is still valid for that: Tailwind, TypeScript, Redux, and other things. Beyond that, Frontend Masters has individual courses on all of those things as taught by other instructions. [Check out the learning path][path] to find all of those.
+Hello! And welcome to the sixth revision of Intermediate React as taught for Frontend Masters! This is a total rewrite of the Intermediate curriculum and I am so excited for you to take it. Previous versions of this course focused on the ecosystem around React and [v5][v5] of this course is still valid for that: Tailwind, TypeScript, Redux, and other things. Beyond that, Frontend Masters has individual courses on all of those things as taught by other instructions. [Check out the learning path][path] to find all of those.
 
 This course logically be divided into two halves: server-side React and performance with React. Both halves are going to focus on the capabilities of React itself rather than tools around it. At the end of the course, you are going to understand all of the tools available to you to write React apps. There are some more APIs that we don't cover but they're so niche that they're not even worth coverings - mostly for library authors.
 

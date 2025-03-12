@@ -12,6 +12,7 @@ keywords:
   - markdown previewer
   - performance optimization
 ---
+
 > You will need to open the folder `perf` from the repo in your project.
 >
 > - [The starter template][starter]
@@ -19,7 +20,7 @@ keywords:
 
 Let's open the `perf` project in our repo and run `npm install`.
 
-We're going to build a markdown previewer! On some laptops this can be pretty slow to parse and re-render to the DOM. On my laptop it's actually fast enough to get through it so we're going to introduce some artifical jank. Your computer may not need it.
+We're going to build a markdown previewer! On some laptops this can be pretty slow to parse and re-render to the DOM. On my laptop it's actually fast enough to get through it so we're going to introduce some artificial jank. Your computer may not need it.
 
 I left a long markdown file for you to use as a sample in markdownContent.js. I asked Claude to make some jokes for us. I'd call it a middling success.
 
@@ -105,7 +106,7 @@ export default function App() {
 
 Alright, go play with it now (you may need to mess with the JANK_DELAY as well as the interval of how often the interval runs). The scroll is probably either janky or it has a hard time re-rendering. Typing in it should hard as well. Also notice that the current render. Re-rendering the theme is tough too.
 
-So how can we fix at least the scroll portion, as well make the other two a little less painful (as they'll only re-renderingo once as opposed to continually.)
+So how can we fix at least the scroll portion, as well make the other two a little less painful (as they'll only re-rendering once as opposed to continually.)
 
 [xss]: https://owasp.org/www-community/attacks/xss/
 [starter]: https://github.com/btholt/irv6-project/tree/main/starter/perf

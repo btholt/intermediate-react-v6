@@ -16,6 +16,7 @@ keywords:
   - React sliders
   - web development
 ---
+
 > You will need to open the folder `deferred` from the repo in your project.
 >
 > - [The starter template][starter]
@@ -49,7 +50,7 @@ export default function Slider({ value, deferred, onChange, name, max }) {
 ```
 
 - This is what we're going to use gather user input for what values they want applied to their image.
-- This is how you tell that something is in a inbetween state - deferred and value will be different. You'll see in just a sec.
+- This is how you tell that something is in an in-between state - deferred and value will be different. You'll see in just a sec.
 
 Let's go create the image it will be applied to: DisplayImage.jsx
 
