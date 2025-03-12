@@ -1,4 +1,5 @@
 ---
+title: The RSC Server
 description: >-
   Explore how to use Fastify to serve a React app with server components by
   setting up a Node.js server that handles both client-side and server-side
