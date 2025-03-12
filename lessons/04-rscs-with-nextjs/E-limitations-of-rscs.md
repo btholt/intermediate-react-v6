@@ -1,5 +1,18 @@
 ---
-title: "Limitations of RSCs"
+title: Limitations of RSCs
+description: >-
+  In the Intermediate React v6 course by Brian Holt for Frontend Masters, learn
+  how to work with React Server Components (RSC) by implementing a client
+  component that renders a server component, with special emphasis on overcoming
+  data transmission barriers between them using pre-rendering and client-side
+  APIs. Discover key insights on optimizing React applications with this
+  advanced web development tutorial.
+keywords:
+  - React
+  - Server Components
+  - Client Components
+  - Web Development
+  - Brian Holt
 ---
 
 Okay, so we saw using a server component as a parent and passing data to a client component. What about going the other way? A client component rendering a server component? Well, it works, sort of, with a some caveats. A good thing to keep in mind is that, by necessity, server components render first and client components second. So we can't cross that barrier back the other way - going from the second/client components to the first/server components. But there's a little trick that we can do to somewhat get around this.

@@ -1,3 +1,19 @@
+---
+description: >-
+  Learn how to create server actions in React using a backend function
+  integration with forms, simplifying the process of managing form data in this
+  lesson from Brian Holt's Intermediate React v6 course from Frontend Masters.
+  This tutorial covers the implementation of server components to automatically
+  handle data transport from frontend to backend without manual 'fetch' coding.
+keywords:
+  - React
+  - server actions
+  - frontend
+  - backend
+  - form integration
+  - Brian Holt
+  - Frontend Masters
+---
 One of the most common interactions that users have with websites is some variation on submitting a form - whether that's a very traditional "fill out this form and hit submit" or something similar where the developer uses a form under the hood to handle inputs and then uses a submit event to fire off an API call.
 
 The React team leaned into this with a feature called server actions. You can essentially create an RSC that has an action on the form that will cause an action to fire on the server. It makes it really simple to hook up a frontend form and a backend function to process it. Let's first craft our form.

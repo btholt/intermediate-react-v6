@@ -1,3 +1,19 @@
+---
+description: >-
+  Learn how to create a server component in React to display user-specific notes
+  using SQLite, as part of the Intermediate React v6 course taught by Brian Holt
+  for Frontend Masters. This lesson guides you through setting up a route to
+  fetch and display notes for a logged-in user, leveraging async functions and
+  server components.
+keywords:
+  - React
+  - server components
+  - SQLite
+  - Brian Holt
+  - Frontend Masters
+  - web development
+  - async functions
+---
 So let's now do a server component where a user can read their own individual notes. This will look a lot like what we did with the no framework version!
 
 Make a folder inside the app directory called `my`. Inside that directory, put page.js. This will make the route /my where this page will show up.

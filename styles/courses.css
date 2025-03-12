@@ -40,7 +40,7 @@ a {
 }
 
 .navbar {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 2px solid var(--icons);
   position: fixed;
   width: 100%;
   top: 0;
@@ -90,7 +90,7 @@ header .cta-btn {
 .cta-btn {
   border-radius: 10px;
   background: var(--nav-buttons);
-  color: var(--nav-buttons-text);
+  color: black;
   padding: 7px 20px;
   display: flex;
   justify-content: center;
@@ -340,6 +340,10 @@ blockquote > *:last-child {
   margin-bottom: 0;
 }
 
+blockquote > *:first-child {
+  margin-top: 0;
+}
+
 .lesson-content img {
   max-width: 100%;
 }
@@ -424,6 +428,8 @@ ol.sections-name .lesson-details {
   flex: 1;
   background: var(--bg-lesson);
   position: relative;
+  border: 2px solid var(--icons);
+  border-radius: 4px;
 }
 
 .details-bg {
@@ -491,7 +497,7 @@ ol.sections-name .lesson-details {
 .lesson-links a {
   border-radius: 10px;
   background: var(--nav-buttons);
-  color: var(--nav-buttons-text);
+  color: black;
   padding: 15px 20px;
   display: inline-block;
   display: flex;
@@ -511,6 +517,7 @@ ol.sections-name .lesson-details {
 .lesson-links a:hover {
   background: #152837;
   text-decoration: none;
+  color: var(--icons);
 }
 
 .lesson-links .arrow {

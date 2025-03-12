@@ -1,5 +1,19 @@
 ---
-title: "Abbreviated Intro to Next.js"
+title: Abbreviated Intro to Next.js
+description: >-
+  Explore Next.js and React Server Components (RSC) in the "Intermediate React
+  v6" course by Brian Holt for Frontend Masters. This guide uses Next.js as a
+  tool to demonstrate RSCs, covering basic setup, dependencies, and the
+  implementation of essential page components for developing apps like Note
+  Passer. Begin your Next.js journey with practical insights on integrating
+  versatile front-end frameworks with a wide range of back-end solutions for web
+  development success.
+keywords:
+  - Next.js
+  - React Server Components
+  - Brian Holt
+  - Frontend Masters
+  - web development
 ---
 
 This is not an intro to Next.js course, intentionally. Frontend Masters has an amazing teacher for that, Scott Moss. We are going to use Next.js here, but only as a tool to teach about RSCs. We'll leave the rest of "how to write great Next.js code" to Scott and his Intro to Next.js Course. You'll learn some Next.js incidentally, but we'll be glossing over it.

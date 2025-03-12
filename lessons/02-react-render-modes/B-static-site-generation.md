@@ -1,3 +1,19 @@
+---
+description: >-
+  Learn how to implement Static Site Generation (SSG) using React and Next.js,
+  with expert guidance from Brian Holt in the Intermediate React v6 course at
+  Frontend Masters. Discover the simplicity of generating static web pages for
+  content-heavy sites and explore how this streamlined approach can expedite
+  course creation without sacrificing quality. Enhance your knowledge on using
+  modern frameworks like Astro and Next.js for optimized static content
+  delivery.
+keywords:
+  - Static Site Generation
+  - Next.js
+  - React
+  - Brian Holt
+  - Frontend Masters
+---
 > Fun fact: this very website is rendered via SSG with Next.js! [See the code here][code]
 
 Static Site generation allows you to use React to generate a fully static site. This is perfect for sites like blogs or course materials (like this site) where it's just a bunch of static pages that don't need the interactivity of React. It's enough to render this out once - it doesn't need the interactivity. The result is the end user is just shipped fully rendered flat HTML files - it doesn't need a server or client to do it. The developer can still add some interactivity via React, but minimally so.
@@ -119,7 +135,7 @@ Using this toolkit, I'm able to use React to write the wrappers of the pages of 
 [code]: https://github.com/btholt/intermediate-react-v6/
 [export]: https://nextjs.org/docs/pages/building-your-application/deploying/static-exports
 [astro]: https://astro.build/
-[md]: https://github.com/btholt/intermediate-react-v6/blob/main/lessons/02-react-server-components/B-static-site-generation.md
+[md]: https://github.com/btholt/intermediate-react-v6/blob/main/lessons/02-react-render-modes/B-static-site-generation.md
 [config]: https://github.com/btholt/intermediate-react-v6/blob/main/next.config.js#L9
-[html]: https://github.com/btholt/intermediate-react-v6/blob/gh-pages/lessons/react-server-components/static-site-generation.html
+[html]: https://github.com/btholt/intermediate-react-v6/blob/gh-pages/lessons/react-render-modes/static-site-generation.html
 [site-html]: https://github.com/btholt/intermediate-react-v6/tree/gh-pages

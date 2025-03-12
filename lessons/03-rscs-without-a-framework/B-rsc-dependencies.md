@@ -1,3 +1,21 @@
+---
+title: RSC Dependencies
+description: >-
+  Learn how to set up a React Server Components project from scratch using
+  Webpack and Babel, with guidance from Brian Holt's Intermediate React v6
+  course on Frontend Masters. This comprehensive guide includes configuring
+  Webpack, Babel, and Fastify to run RSCs efficiently without additional
+  frameworks, enhancing your web development skills.
+keywords:
+  - React Server Components
+  - Webpack
+  - Babel
+  - Brian Holt
+  - Frontend Masters
+  - RSC
+  - web development
+---
+
 There's a lot to getting this set up by hand, but bear with me, and I promsie at the end of this you're going to understand RSCs at a depth that allows you to make trade-offs of when to use them and when to avoid them.
 
 So, first, we're going to use Webpack and Babel directly (despite normally I'd suggest Vite.) Why? Because this allows us to use the React team's code directly without a layer indirection between Vite and Webpack. In general I suggest Vite for React devs.
@@ -145,6 +163,8 @@ Looks quite similar to our previous ones. Let's make a /public/index.css. [Copy 
 
 Copy [this SQLite file][sqlite] to your root directory as well.
 
+> Both of these files should be in the root directory of the project if you cloned it. notes.db and index.css. Put them into your project
+
 Lastly add these scripts to your package.json
 
 ```json
@@ -158,5 +178,5 @@ Okay, this should give us everything that's needed for our app to function befor
 
 Another new thing you might be the `--conditions react-server` part of running our server app. This lets Node.js know how to resolve its modules - we're in a react-server condition so only import those and know not to import client modules. I had never used this feature of Node.js before but it's pretty cool, even if it's a bit niche.
 
-[css]:
-[sqlite]:
+[css]: https://raw.githubusercontent.com/btholt/irv6-project/refs/heads/main/completed/no-framework/public/index.css
+[sqlite]: https://github.com/btholt/irv6-project/blob/main/notes.db

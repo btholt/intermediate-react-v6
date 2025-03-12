@@ -1,3 +1,19 @@
+---
+description: >-
+  Learn how to use React's useTransition hook to optimize user experience when
+  selecting options with poor network connectivity, ensuring the user interface
+  remains interactive by building a sports score app with delayed API responses,
+  as taught by Brian Holt in the 'Intermediate React v6' course for Frontend
+  Masters.
+keywords:
+  - React
+  - useTransition
+  - Brian Holt
+  - Frontend Masters
+  - UI optimization
+  - web development
+  - sports app
+---
 You know how your remote has those buttons for streaming services on it? Have you ever accidentally pressed "Uncle Pete's Streaming Service" instead of "Netflix" and it takes forever to load and you're held hostage to the unoptimized loading of their crappy app? Really frustrating, right?
 
 Now think of that happening on a website you've been on – you have several options to pick from and you accidentally chosoe the wrong one, and now you have to wait for the UI to be interactive again for you to be able to correct your mistake. Really annoying, especially on slower sites, slower connections and/or slower devices.

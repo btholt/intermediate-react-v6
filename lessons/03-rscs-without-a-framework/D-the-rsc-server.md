@@ -1,3 +1,20 @@
+---
+description: >-
+  Explore how to use Fastify to serve a React app with server components by
+  setting up a Node.js server that handles both client-side and server-side
+  rendering. Written by Brian Holt for Frontend Masters, this guide offers
+  step-by-step integration of React and Fastify, demonstrating the use of React
+  Flight Protocol and reinforcing React's modular framework for advanced web
+  development.
+keywords:
+  - React
+  - Fastify
+  - Node.js
+  - Brian Holt
+  - server components
+  - web development
+  - React Flight Protocol
+---
 So now we have a React app ready to be served to clients. Let's write a quick Fastify server to do this. I just chose Fastify because I like it; there's no reason you couldn't do Express, Restify, or any other API framework for Node.js.
 
 Let's create a `server` directory in the root directory of our project. Put in there a main.js file and put in there
