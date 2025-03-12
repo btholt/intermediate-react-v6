@@ -15,6 +15,7 @@ keywords:
   - web development
   - RSC
 ---
+
 We've talked about client-side React apps (no server), static site generation apps (server runs only at compile time), and server-side rendered app (server renders initial page but then client does the rest). Now we're going to talk about react server components which involves the server even more.
 
 ## What are RSCs?
@@ -53,7 +54,7 @@ We'll end up writing a whole app in Next.js by the end of the course, but we're 
 
 ## NotePasser
 
-Remember in school when you would pass notes by hand? No? Well, back in my day (_shakes fist at passing cloud_) we didn't have cell phones and had to rely on penmanship and steathily trying to pass a paper note to our friend in class.
+Remember in school when you would pass notes by hand? No? Well, back in my day (_shakes fist at passing cloud_) we didn't have cell phones and had to rely on penmanship and stealthily trying to pass a paper note to our friend in class.
 
 We're going to build an app inspired by that today, where we can pass notes from one user to another.
 

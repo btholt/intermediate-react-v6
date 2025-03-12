@@ -15,6 +15,7 @@ keywords:
   - web development
   - React Flight Protocol
 ---
+
 So now we have a React app ready to be served to clients. Let's write a quick Fastify server to do this. I just chose Fastify because I like it; there's no reason you couldn't do Express, Restify, or any other API framework for Node.js.
 
 Let's create a `server` directory in the root directory of our project. Put in there a main.js file and put in there
@@ -164,4 +165,4 @@ fastify.get("/react-flight", function reactFlightHandler(request, reply) {
 - Check out the react-flight request in your network tab to see how it gets rendered out.
 - I also like it shows you `Server` logs directly in the browser, makes it easy to see client and server console.logs in the same place.
 
-So there you go! Now your app is rendering partially on the server, partially on the client, and you've handcoded it all! This is a pain to do but once you involve a framework like Next.js this gets so much easier. Still, amazing job! Hopefully you peeked a little bit behind the curtain to see what React is doing for you.
+So there you go! Now your app is rendering partially on the server, partially on the client, and you've hand-coded it all! This is a pain to do but once you involve a framework like Next.js this gets so much easier. Still, amazing job! Hopefully you peeked a little bit behind the curtain to see what React is doing for you.

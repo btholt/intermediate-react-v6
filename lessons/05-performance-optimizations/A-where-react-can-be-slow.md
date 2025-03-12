@@ -15,11 +15,12 @@ keywords:
   - Brian Holt
   - Frontend Masters
 ---
+
 React generally has a very good performance profile, no matter what "thought leaders" may be tweeting about it. If you write React in a way consistent with the way I taught you in this class and the intro as well as the docs, you really don't need to concern yourself too much with "is this going to perform well" because React tends to be really good at making sure average code runs fast enough.
 
-To be entirely honest, it was _hard_ to make non-performant code in React. We're going to have to resort to adding artificial slowdowns in our code because my MacBook could consistenly churn through the code inefficient code anyway, making it hard to see performance gains we're going to get. Nonetheless, these concepts aren't important until they're _very_ important.
+To be entirely honest, it was _hard_ to make non-performant code in React. We're going to have to resort to adding artificial slowdowns in our code because my MacBook could consistently churn through the code inefficient code anyway, making it hard to see performance gains we're going to get. Nonetheless, these concepts aren't important until they're _very_ important.
 
-> 💡 I am about to show your four different ways to make React perform better in certain circumstances. My **strong** advice for is to not pre-emptively use these. You should wait until you have a performance problem in your UI before you try to optimize it. These tools make your code harder to read and makes bugs hard to track down (since you're getting outside of the normal way of writing React.) Have problems before you solve them.
+> 💡 I am about to show your four different ways to make React perform better in certain circumstances. My **strong** advice for is to not preemptively use these. You should wait until you have a performance problem in your UI before you try to optimize it. These tools make your code harder to read and makes bugs hard to track down (since you're getting outside of the normal way of writing React.) Have problems before you solve them.
 
 So where does React have problems some times?
 

@@ -12,6 +12,7 @@ keywords:
   - Frontend Masters
   - JavaScript
 ---
+
 Let's put together the most simple React app so that we can render it using our newly-created framework.
 
 Let's make a directory, `src` and put a file in there a file called App.jsx
@@ -112,7 +113,7 @@ export default async function MyNotes() {
 }
 ```
 
-- We're doing SQL in React!? Well, yes, but also no. This all happening server-side before it's beening sent down to the browser. So it's basically the same as doing an API request but it's doing the full React lifecycle here on the server. That's one of the nicest aspects of RSC - you get to write all of this as if it was being done server side but instead of having a server portion and a client portion, it's all the same file!
+- We're doing SQL in React!? Well, yes, but also no. This all happening server-side before it's being sent down to the browser. So it's basically the same as doing an API request but it's doing the full React lifecycle here on the server. That's one of the nicest aspects of RSC - you get to write all of this as if it was being done server side but instead of having a server portion and a client portion, it's all the same file!
 - Notice that it's an `async` function - this is a fun ability that only server components have. Since it's all rendering once and on the server, you can do async functions for react server components.
 
 This is deliberately a pared-down feature set as we're going to only do the bare minimum to implement a by-hand RSC-server implementation. Once we get into Next.js I'll show you more advance React server component features.

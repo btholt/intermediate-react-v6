@@ -16,7 +16,7 @@ keywords:
   - web development
 ---
 
-There's a lot to getting this set up by hand, but bear with me, and I promsie at the end of this you're going to understand RSCs at a depth that allows you to make trade-offs of when to use them and when to avoid them.
+There's a lot to getting this set up by hand, but bear with me, and I promise at the end of this you're going to understand RSCs at a depth that allows you to make trade-offs of when to use them and when to avoid them.
 
 So, first, we're going to use Webpack and Babel directly (despite normally I'd suggest Vite.) Why? Because this allows us to use the React team's code directly without a layer indirection between Vite and Webpack. In general I suggest Vite for React devs.
 

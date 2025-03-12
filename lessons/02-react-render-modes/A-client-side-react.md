@@ -17,7 +17,7 @@ keywords:
 
 > 💡 This course assumes you have taken or at least understand the concepts in [The Complete Intro to React v9][v9]. If you don't, please go back and take that one first, this will make a lot more sense.
 
-React Server Components (which I will now abbreviate as RSC) are a concept that have been teased for a few years before landing in stable React in early 2025 when React 19 was officially realeased. No doubt they are a very interesting piece of technology and offer a lot of upside. They have some interesting trade-offs and we'll talk about them, but don't be quick to paint them as bad as some have, and definitely don't use them _everywhere_ either, they have a time and place.
+React Server Components (which I will now abbreviate as RSC) are a concept that have been teased for a few years before landing in stable React in early 2025 when React 19 was officially released. No doubt they are a very interesting piece of technology and offer a lot of upside. They have some interesting trade-offs and we'll talk about them, but don't be quick to paint them as bad as some have, and definitely don't use them _everywhere_ either, they have a time and place.
 
 Before we dive right into what an RSC is, it's helpful to understand _three_ other ways React renders your app.
 

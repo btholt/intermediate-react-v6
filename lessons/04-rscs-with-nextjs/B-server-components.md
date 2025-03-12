@@ -14,6 +14,7 @@ keywords:
   - web development
   - async functions
 ---
+
 So let's now do a server component where a user can read their own individual notes. This will look a lot like what we did with the no framework version!
 
 Make a folder inside the app directory called `my`. Inside that directory, put page.js. This will make the route /my where this page will show up.
@@ -95,7 +96,7 @@ export default async function MyNotes() {
 - We've built this to essentially the user is always logged in as user 1, brian. Feel free afterwards to add your own auth and make it a full-fledged app. [Neon Auth][neon] (which I helped build!) and [Clerk][clerk] are two great options here.
 - It's an async function
 - We're able to use the SQLite driver which is server-only normally
-- Again, we don't have to say `"use server";` because it's assumed that any componet without "use client" is a server component
+- Again, we don't have to say `"use server";` because it's assumed that any component without "use client" is a server component
 - Make sure to check out the network traffic! It's cool to see all the React Flight protocol stuff in action!
 
 [neon]: https://neon.tech/blog/neon-auth-is-here-get-authentication-in-a-couple-of-clicks

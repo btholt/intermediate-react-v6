@@ -14,6 +14,7 @@ keywords:
   - JavaScript
   - Intermediate React
 ---
+
 Let's first make this "wrong" first - the problem where the UI locks up during transitional times.
 
 Let's make a Score.jsx file
@@ -106,4 +107,4 @@ export default function App() {
 ```
 
 - So this works, and this is how most people would have coded this - just wait until the API request finishes.
-- Why do we need to disable the select while stuff is loading? Because if we don't people can make multiple requests in that time, and they'll return in a jumbled order and it'll freak people out. We have to make sure it finsihes it first so we don't have a UI that's responding to old requests.
+- Why do we need to disable the select while stuff is loading? Because if we don't people can make multiple requests in that time, and they'll return in a jumbled order and it'll freak people out. We have to make sure it finishes it first so we don't have a UI that's responding to old requests.

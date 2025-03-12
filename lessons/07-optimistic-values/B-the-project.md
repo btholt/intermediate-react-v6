@@ -15,6 +15,7 @@ keywords:
   - JavaScript
   - web development
 ---
+
 > You will need to open the folder `optimistic` from the repo in your project.
 >
 > - [The starter template][starter]
@@ -22,7 +23,7 @@ keywords:
 
 Let's open the project.
 
-1. Open optimisitic folder in your editor of choice
+1. Open optimistic folder in your editor of choice
 1. Run `npm install`
 1. Glance at server.js - it responds to GET and POST on /thoughts
 1. Run `npm run dev:server` to run the server

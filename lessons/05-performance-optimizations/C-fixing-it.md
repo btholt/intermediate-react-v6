@@ -16,7 +16,8 @@ keywords:
   - Frontend Masters
   - performance
 ---
-When does a componet re-render? It re-renders when its parents have changed, always. But what if we could say "only re-render when your props have changed"? Frankly that's most components, but this is an opt-in pattern for React. Generally, like we said, renders are so cheap that introducing this "memoization" layer just makes it harder to debug. But in this case we need some help, so let's do it!
+
+When does a component re-render? It re-renders when its parents have changed, always. But what if we could say "only re-render when your props have changed"? Frankly that's most components, but this is an opt-in pattern for React. Generally, like we said, renders are so cheap that introducing this "memoization" layer just makes it harder to debug. But in this case we need some help, so let's do it!
 
 In MarkdownPreview.jsx
 
