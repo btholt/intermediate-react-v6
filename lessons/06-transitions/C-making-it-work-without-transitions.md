@@ -20,16 +20,27 @@ Let's first make this "wrong" first - the problem where the UI locks up during t
 Let's make a Score.jsx file
 
 ```javascript
-export default function Score({ isPending, home, away, game }) {
+const loadingUrl = "/images/loading.webp";
+export default function Score({
+  isPending,
+  home,
+  away,
+  awayName,
+  homeName,
+  awayImage,
+  homeImage,
+}) {
   return (
     <div className="score">
       <div>
-        <h2>HOME {game}</h2>
+        <h2>{isPending ? "HOME" : homeName}</h2>
         <h3>{isPending ? "–" : home}</h3>
+        <img src={isPending ? loadingUrl : homeImage} alt="home team logo" />
       </div>
       <div>
-        <h2>AWAY {game}</h2>
+        <h2>{isPending ? "AWAY" : awayName}</h2>
         <h3>{isPending ? "–" : away}</h3>
+        <img src={isPending ? loadingUrl : awayImage} alt="away team logo" />
       </div>
     </div>
   );
@@ -88,6 +99,8 @@ export default function App() {
         <option value={3}>Game 3</option>
         <option value={4}>Game 4</option>
         <option value={5}>Game 5</option>
+        <option value={6}>Game 6</option>
+        <option value={7}>Game 7</option>
       </select>
       <div className={`loading-container ${isPending ? "loading" : ""}`}>
         {" "}
@@ -96,7 +109,10 @@ export default function App() {
       <div>
         <Score
           isPending={isPending}
-          game={game}
+          homeImage={score.homeImage}
+          homeName={score.homeName}
+          awayImage={score.awayImage}
+          awayName={score.awayName}
           home={score.home}
           away={score.away}
         />
