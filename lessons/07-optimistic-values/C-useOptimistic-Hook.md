@@ -1,20 +1,22 @@
 ---
+title: "useOptimistic Hook"
 description: >-
   Discover how optimistic UI updates in messaging apps like iMessage or WhatsApp
   give users immediate visual feedback before a message is truly sent. Learn
   with Brian Holt in the Intermediate React v6 course for Frontend Masters,
-  focusing on using React Server Components and hooks like useOptimisticValue
+  focusing on using React Server Components and hooks like useOptimistic
   and useTransition for seamless web development.
 keywords:
   - optimistic UI
   - React
-  - useOptimisticValue
+  - useOptimistic
   - useTransition
   - Brian Holt
   - Frontend Masters
   - web development
 ---
-Let's refactor to use transitions and `useOptimisticValue`.
+
+Let's refactor to use transitions and `useOptimistic`.
 
 ```javascript
 // at the top

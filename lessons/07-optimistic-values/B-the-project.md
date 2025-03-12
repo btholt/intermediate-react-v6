@@ -98,7 +98,7 @@ export default function App() {
 - Nothing surprising here. We get thoughts on load, and we reload them on POST
 - The big issue here is that the user is shown no feedback while the POST happening.
 - We could just append to thoughts and hope for the best - and this is what we used to do.
-- However we can use `useOptimisticState` and get a lot of the error cases and other problems wrapped up and taken care of for us.
+- However we can use `useOptimistic` and get a lot of the error cases and other problems wrapped up and taken care of for us.
 
 [starter]: https://github.com/btholt/irv6-project/tree/main/starter/optimistic
 [completed]: https://github.com/btholt/irv6-project/tree/main/completed/optimistic
