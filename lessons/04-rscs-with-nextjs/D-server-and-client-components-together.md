@@ -34,7 +34,7 @@ export default async function TeacherView() {
 }
 ```
 
-This a server component that will load initial notes from a fetchNotes function and then feed it in as a prop. Let's go write that fetchNote.js file.
+This a server component that will load initial notes from a fetchNotes function and then feed it in as a prop. Let's go write that fetchNotes.js file.
 
 ```javascript
 "use server";
