@@ -136,7 +136,7 @@ return reply.send(`3:I["./src/ClientComponent.jsx",["vendors-node_modules_react_
 `);
 ```
 
-- This may not work for you due to paths (and again, you'd never hand author this so don't work if it doesn't.)
+- This may not work for you due to paths (and again, you'd never hand author this so don't worry if it doesn't.)
 - This is cool though because you can see how React is referencing a client component. It's basically saying here's a div, and in it has an h1 and a "$L3". It then defines a "3" on the first line where it has `3:I`. Here it's saying anywhere that you have a 3 component, it refers to a ClientComponent, and that's going to be in this specific bundle, go find that and use it.
 - Pretty cool, right?
 - I genuinely don't know what some of the pieces here do, but it's fun to hack around and see what you can bend React to do.
