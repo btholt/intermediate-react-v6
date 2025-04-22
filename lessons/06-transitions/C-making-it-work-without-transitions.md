@@ -17,7 +17,7 @@ keywords:
 
 Let's first make this "wrong" first - the problem where the UI locks up during transitional times.
 
-Let's make a Score.jsx file
+Let's make a `Score.jsx` file
 
 ```javascript
 const loadingUrl = "/images/loading.webp";
@@ -49,7 +49,7 @@ export default function Score({
 
 - Key here is that if the score is pending, we show a dash. That will visually indicate to the user we haven't loaded it yet.
 
-Okay, let's make a quick function fetch from the API. Make a file called getScore.js
+Okay, let's make a quick function fetch from the API. Make a file called `getScore.js`
 
 ```javascript
 export default async function getScore(game) {
@@ -61,7 +61,7 @@ export default async function getScore(game) {
 
 No surprises here.
 
-Let's go modify our App.jsx. Put this in there
+Let's go modify our `App.jsx`. Put this in there
 
 ```javascript
 import { useState, useEffect } from "react";

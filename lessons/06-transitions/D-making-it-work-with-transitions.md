@@ -11,7 +11,7 @@ keywords:
   - Brian Holt
 ---
 
-Luckily the useTransition code is only slightly more complex.
+Luckily the useTransition code is only slightly more complex. Update `App.jsx`:
 
 ```javascript
 // add useTransition at top
