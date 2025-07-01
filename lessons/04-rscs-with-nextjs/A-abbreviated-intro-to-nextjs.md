@@ -104,6 +104,6 @@ Great! This should be all fairly non-interesting. The only thing here is that pa
 
 Lastly, update [the globals.css to be this][css]. Go ahead and delete page.module.css. CSS modules are awesome but not in scope for this class so I've just written all the CSS for you.
 
-[seed]:
-[db]:
-[css]:
+[seed]: https://github.com/btholt/irv6-project/blob/main/completed/nextjs/seed.sql
+[db]: https://github.com/btholt/irv6-project/blob/main/notes.db
+[css]: https://github.com/btholt/irv6-project/blob/main/globals.css
