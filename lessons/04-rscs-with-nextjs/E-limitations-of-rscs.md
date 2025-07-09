@@ -60,6 +60,7 @@ export default async function WhoAmI() {
 And now clientPage.js
 
 ```javascript
+"use client";
 import updateUsername from "./updateUsername";
 
 export default function ClientWhoAmIPage({ children, id }) {
